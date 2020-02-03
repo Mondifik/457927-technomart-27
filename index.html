@@ -53,6 +53,119 @@
 
     <main>
       <section>
+        <h2 class="visually-hidden">Каталог</h2>
+        <ul>
+          <li>
+            Материалы
+            <a href="">На любой вкус</a>
+          </li>
+          <li>
+            Инструмент
+            <a href="">На все случаи</a>
+          </li>
+          <li>
+            Техника
+            <a href=""></a>
+          </li>
+          <li>
+            Слайдер <!-- Нужно определиться что здесь ставить -->
+            <a href=""></a>
+          </li>
+          <li>
+            Скидки 50%
+            <a href=""></a>
+          </li>
+          <li>
+            Доставка
+            <a href=""></a>
+          </li>
+        </ul>
+      </section>
+      <section>
+        <h2>Популярные товары:</h2>
+        <a href="catalog.html">Все популярные товары</a>
+        <ul>
+          <li>
+            <img src="img/bosch-9000.jpg" width="218" height="170" alt="Перфоратор BOSCH BFG 9000">
+            <h3>Перфоратор BOSCH BFG 9000</h3>
+            <span>32500 Р.</span>
+            <span>25500 Р.</span>
+          </li>
+          <li>
+            <img src="img/bosch-3000.jpg" width="218" height="170" alt="Перфоратор BOSCH BFG 3000">
+            <h3>Перфоратор BOSCH BFG 3000</h3>
+            <span>22500 Р.</span>
+            <span>15500 Р.</span>
+          </li>
+          <li>
+            <img src="img/bosch-6000.jpg" width="218" height="170" alt="Перфоратор BOSCH BFG 6000">
+            <h3>Перфоратор BOSCH BFG 6000</h3>
+            <span>30500 Р.</span>
+            <span>25500 Р.</span>
+          </li>
+          <li>
+            <img src="img/bosch-2000.jpg" width="218" height="170" alt="Перфоратор BOSCH BFG 2000">
+            <h3>Перфоратор BOSCH BFG 2000</h3>
+            <span>12500 Р.</span>
+          </li>
+        </ul>
+      </section>
+      <section>
+        <h2>Популярные производители:</h2>
+        <a href="">Все производители</a>
+        <ul>
+          <li>
+            <a href="">
+              <img src="img/brands/bosch" alt="Компания BOSCH">
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <img src="" alt="Компания MAKITA">
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <img src="" alt="Компания DEWALT">
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <img src="" alt="Компания ИНТЕРСКОЛ">
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <img src="" alt="Компания HITACHI">
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <img src="" alt="Компания LG">
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <img src="" alt="Компания AEG">
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <img src="" alt="Компания Metabo">
+            </a>
+          </li>
+        </ul>
+      </section>
+      <section>
+        <h2>Сервисы</h2>
+        <p>Хороший интернет-магазин отличается от плохого не только ценами! Мы стараемся изо всех сил, чтобы сделать ваши покупки приятными.</p>
+        <button type="button">Доставка</button> <!-- здесь не понимаю нужно ли кнопки размещать в список, и разделять ли на дополнительную секцию блок с переключаемой информацией -->
+        <button type="button">Гарантия</button>
+        <button type="button">Кредит</button>
+        <h3>Доставка</h3>
+        <p>Мы с удовольствием доставим ваш товар прямо к вашему подъезду совершенно бесплатно! Ведь мы неплохо заработаем, поднимая его на ваш этаж!</p>
+      </section>
+      <section>
         <h2>Компания «Техномарт»</h2>
         <p>Настоящий мужской шоппинг начинается здесь! Огромный выбор товаров для ремонта и строительства не оставит равнодушными любителей сэкономить на гастарбайтерах.</p>
         <p>Мы можем доставить ваш товар в самые отдаленные точки России!<br>
@@ -70,7 +183,36 @@
         <a href="#">
           <img src="img/map.png" width="300" height="160" alt="Карта проезда">
         </a>
+        <div class="class="visually-hidden"">
+          <img src="img/map.png" width="940" height="446" alt="Карта офиса Большая Конюшенная ул. 19">
+          <button type="button">
+            Закрыть
+          </button>
+        </div>
         <a href="#">Заблудились? Напишите нам!</a>
+        <div class="visually-hidden">
+          <form class="question" action="https://echo.htmlacademy.ru" method="post">
+            <p>
+              <label for="user-name">Ваше имя:</label>
+              <input type="text" name="login" id="user-name" placeholder="Имя Фамилия">
+            </p>
+            <p>
+              <label for="user-email">Ваш e-mail:</label>
+              <input type="text" name="email" id="user-email" placeholder="email@example.com">
+            </p>
+            <p>
+              <label for="user-text">Текст письма:</label>
+              <input type="text" name="text" id="user-text" placeholder="В свободной форме">
+            </p>
+            <button type="submit">
+              Отправить
+            </button>
+            <button type="button">
+              Закрыть
+            </button>
+          </form>
+
+        </div>
       </section>
     </main>
 
