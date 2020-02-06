@@ -250,7 +250,7 @@ a {
 }
 
 .breadcrumbs a {
-  font-family: "PT Sans" sans-serif;
+  font-family: "PT Sans", Arial, sans-serif;
   font-size: 13px;
   line-height: 18px;
   text-transform: uppercase;
@@ -266,7 +266,7 @@ a {
 }
 
 .filter legend {
-  font-family: "PT Sans" sans-serif;
+  font-family: "PT Sans", Arial, sans-serif;
   font-size: 17px;
   line-height: 30px;
   font-weight: bold;
@@ -274,14 +274,14 @@ a {
 }
 
 .filter label {
-  font-family: "PT Sans" sans-serif;
+  font-family: "PT Sans", Arial, sans-serif;
   font-size: 15px;
   line-height: 20px;
   text-transform: uppercase;
 }
 
 .filter-button {
-  font-family: "PT Sans" sans-serif;
+  font-family: "PT Sans", Arial, sans-serif;
   font-size: 13px;
   line-height: 18px;
   text-transform: uppercase;
@@ -293,14 +293,14 @@ a {
 }
 
 .catalog-items h3 {
-  font-family: "PT Sans" sans-serif;
+  font-family: "PT Sans", Arial, sans-serif;
   font-size: 18px;
   line-height: 20px;
   color: #000000;
 }
 
 .old-price {
-  font-family: "PT Sans" sans-serif;
+  font-family: "PT Sans", Arial, sans-serif;
   font-size: 17px;
   line-height: 18px;
   font-weight: bold;
@@ -308,7 +308,7 @@ a {
   color: #999999;
 }
  .price {
-   font-family: "PT Sans" sans-serif;
+   font-family: "PT Sans", Arial, sans-serif;
    font-size: 17px;
    line-height: 18px;
    font-weight: bold;
